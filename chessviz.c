@@ -36,7 +36,13 @@ int main()
     Desc[7][5]='B';
     Desc[7][6]='N';
     Desc[7][7]='R';
-    for ()
+    for (i=2;i<6;i++)
+    {
+        for (k=0;k<8;k++)
+        {
+            Desc[i][k]=' ';
+        }
+    }
     for (i=0;i<8;i++)
     {
         for(k=0;k<8;k++)
